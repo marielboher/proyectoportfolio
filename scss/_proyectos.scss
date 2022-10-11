@@ -1,0 +1,76 @@
+/* pagina de proyectos */
+
+.proyectos {
+    grid-area: proyectos;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    .container-proyectos{
+    
+        h3 {display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        color: $letraclara;
+        padding: 20px;
+        font-size: 22px;
+        font-weight: bold;
+        }
+        .proyectos-row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .proyectos-row-box {
+            @extend .cardex;
+            margin: 20px;
+            width: 250px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: transform .4s;
+            &:hover {
+                transform: scale(1.1);
+            }
+            img {
+                width: 50px;
+                height: 40px;
+            }
+            h5 {
+                text-align: center;
+                padding-top: 20px;
+                color: $letracolor;
+                font-weight: bold;
+            }
+            p {
+                color: $letraclara;
+                margin-left: 12px;
+                text-align: center;
+                min-height: 70px;
+                padding: 10px;
+            }
+            button {
+                height: 40px;
+                width: 50px;
+                border-radius: 5px;
+                background-color: $letracolor;
+                color: $letraclara;
+                border: none;
+                transition: transform .4s;
+                &:hover {
+                    @include hover
+                }
+            }
+        }
+        
+    }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+/* pagina de habilidades */
+main{
+    .table {
+        color: $letraclara;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+        background-color: $fondooscuro;
+        text-align: left;
+        border-collapse: collapse;
+        th {
+            padding: 20px;
+            color: $letraclara;
+        }
+    }
+
+    .boton-h {
+        background-color: $letracolor;
+        border: none;
+        transition: transform .4s;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+        color: $letraclara;
+        &:hover {
+           @include hover
+        }
+    }
+    .prog1 {
+        background-color: rgba(233, 69, 96, .5);
+    }
+    .prog2 {
+        background-color: rgba(233, 69, 96, .5);
+    }
+    .prog3 {
+        background-color: rgba(233, 69, 96, .5);
+    }
+    .collap{
+        background-color: rgba(233, 69, 96, .5);
+        color: $letraclara;
+        font-weight: bold;
+    }
+}
+
+
+
+
+
+
+
+

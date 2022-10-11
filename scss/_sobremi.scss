@@ -1,0 +1,43 @@
+/* pagina sobre mi */
+
+main{
+    .card-s {
+        @extend .cardex;
+        padding: 20px;
+        border: none;
+    }
+    .img-s {
+        width: 250px;
+        height: 250px;
+    }
+    .texto-s {
+        color: $letraclara;
+        padding: 20px;
+        .titulo-s {
+            display: flex;
+            justify-content: flex-start;
+            color: $letraclara;
+            font-size: 25px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .horizontal{
+            width: 620px auto;
+            height: 2px;
+            background-color: $letracolor;
+            margin-bottom: 20px;
+        }
+        .sobremi-gri{
+            font-weight: bold;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 3rem;
+        }
+    }
+
+}
+
+
+

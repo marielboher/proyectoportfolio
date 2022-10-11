@@ -1,0 +1,5 @@
+ENTREGA SASS + SEO
+Para esta entrega realice los siguientes cambios:
+-	Agregue extend para reutilizar código.
+-	Modifique diseño de pagina sobre mi.
+-   Agregue mas informacion a meta etiquetas  

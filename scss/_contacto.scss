@@ -1,0 +1,91 @@
+/* pagina de contacto */
+
+.main-c {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .form {
+        @extend .cardex;
+        width: 22rem;
+        height: 410px;
+        padding: 20px 30px;
+        box-sizing: border-box;
+        div {
+            padding: 8px;
+        }
+        h2 {
+            font-size: 18px;
+            padding-bottom: 5px;
+            color: $letracolor;
+            font-weight: bold;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            background: none;
+            border: 0;
+            font-family: 'Raleway', sans-serif;
+            border-bottom: 2px solid $letraclara;
+            font-size: 12px;
+        }
+        label {
+            color: $letracolor;
+            font-size: 15px;
+        }
+        textarea {
+           height: 70px;
+           padding: 5px;
+           border-radius: 5px;
+           background-color: $fondooscuro;
+        }
+        button {
+            padding: 8px 12px;
+            color: $letraclara;
+            border: none;
+            background-color: $letracolor;
+            border-radius: 5px;
+            transition: transform .4s;
+            &:hover {
+                @include hover
+            }
+        }
+    }
+    .contacto2 {
+        @extend .cardex;
+        width: 22rem;
+        .img-c {
+            padding: 20px;
+            height: 300px;
+            width: 100%;
+            max-width: 400px;
+        }
+        .iconos-flex {
+            display: flex;
+            align-items: center;
+            img {
+                height: 22px;
+                padding: 2px;
+                display: block;
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+            .texto-iconos{
+                p {
+                    font-size: 12px;
+                    margin: 6px;
+                    color: $letraclara;
+                }
+                a {
+                    text-decoration: none;
+                }
+            } 
+        }
+    }
+}
+
+
+
+
+

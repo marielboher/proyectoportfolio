@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina donde se pueden visualizar mis redes sociales, como github y linkedin e informacion para que futuros clientes puedan contactarse conmigo">
+    <meta name="keywords"
+        content="HTML, JS, CSS, Angular, frontend, developer, software, portfolio, CoderHouse, trabajo, freelance, linkedin, github, gmail, contacto">
+    <link rel="shortcot icon" href="./multimedia/faviconn.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Portfolio | Contacto</title>
+</head>
+
+<body class="container-c">
+    <!-- header -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg menu animate__animated animate__fadeIn">
+            <div class="container-fluid ">
+                <a class="navbar-brand logo">Portfo<span>lio</span></a>
+                <button class="navbar-toggler hambur" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link ms-2" href="./index.html">INICIO</a>
+                        <a class="nav-link ms-2" href="./sobremi.html">SOBRE MI</a>
+                        <a class="nav-link ms-2" href="./proyectos.html">PROYECTOS</a>
+                        <a class="nav-link ms-2" href="./habilidades.html">HABILIDADES</a>
+                        <a class="nav-link ms-2" href="./contacto.html">CONTACTO</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- contanido -->
+    <main class="main-c ">
+        <section>
+            <div class="contacto1">
+                <form class="form animate__animated animate__fadeInDown">
+                    <h2>Contacto</h2>
+                    <div>
+                        <input type="text" name="nombre" placeholder="Escribe tu nombre">
+                    </div>
+                    <div>
+                        <input type="text" name="apellido" placeholder="Escribe tu apellido">
+                    </div>
+                    <div>
+                        <input type="email" name="email" placeholder="Escribe tu email" required>
+                    </div>
+                    <div>
+                        <label for="comen">Deja tu comentario!</label><br>
+                        <textarea name="comen" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>
+                    <div>
+                </form>
+            </div>
+        </section>
+        <section>
+            <div class="card contacto2 animate__animated animate__fadeInUp">
+                <img src="./multimedia/contacto.svg" class="card-img-top img-c" alt="contacto">
+                <div class="card-body">
+                    <div class="card-text">
+                        <div class="iconos-flex">
+                            <div class="iconos">
+                                <a href="https://www.google.com/intl/es-419/gmail/about/" target="blank">
+                                    <img alt="mail" src="./multimedia/mail.svg">
+                                </a>
+                                <a href="https://github.com/MarielBoher" target="blank">
+                                    <img alt="git" src="./multimedia/github.svg">
+                                </a>
+                                <a href="https://www.linkedin.com/in/mariel-boher-639954205" target="blank">
+                                    <img alt="linkdedin" src="./multimedia/linkedin.svg">
+                                </a>
+                            </div>
+                            <div class="texto-iconos">
+                                <a href="https://www.google.com/intl/es-419/gmail/about/" target="blank">
+                                    <p>mariellboheer@gmail.com</p>
+                                </a>
+                                <a href="https://github.com/MarielBoher" target="blank">
+                                    <p>https://github.com/MarielBoher</p>
+                                </a>
+                                <a href="https://www.linkedin.com/in/mariel-boher-639954205" target="blank">
+                                    <p>www.linkedin.com/in/mariel-boher-639954205</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <h6>Creado por Mariel Boher<span>&#169</span></h6>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

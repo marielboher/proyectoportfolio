@@ -1,0 +1,19 @@
+$fondooscuro: #222222;
+$letracolor: #E94560;
+$letraclara: #ffffff;
+
+
+@mixin hover{
+    transform: scale(1.1);
+    background-color: transparent;
+    color: $letraclara;
+    border: $letracolor 1px solid;
+}
+
+.cardex{
+    border-radius: 5px;
+    background: $fondooscuro;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+
